@@ -1,0 +1,35 @@
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/drop_lists.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+
+#menudiv				{ height: 100px; }
+
+#menu					{ padding: 0; margin: 25px 0 50px 15px; list-style: none; position: relative; height: 25px; width: 643px; }
+
+#menu li 				{ display: inline; float: left; height: 25px; }
+#menu li a.head			{ display: block; width: 150px; height: 25px; text-decoration: none; line-height: 20px; font-weight: bold; text-indent: 10px; font-weight: normal;
+							color: #000; }
+
+#menu div 				{ display: none; }
+
+#menu li a.head:hover	{ text-decoration: underline; white-space: normal; background-position: 130px 15px; font-size: large; font-weight: bold; }
+#menu li:hover > a.head	{ text-decoration: underline; white-space: normal; background-position: 130px 15px; font-size: large; font-weight: bold; }
+
+#menu :hover div		{ display: block; width: 598px; background: #f0f5ee; position: absolute; left: 0; top: 25px; border: 1px solid #888; padding-bottom: 10px; }
+
+#menu :hover div dl		{ display: inline; padding: 0; margin: 0 10px 10px 10px; float: left; width: 179px; }
+#menu :hover div dl dt	{ width: 179px; background: #888; text-indent: 10px; margin: 5px 0 10px 0; text-decoration: none; height: 20px; line-height: 20px; }
+
+#menu :hover div dl dd	{ padding: 0; margin: 0; }
+
+#menu :hover div dt a	{ text-decoration: none; cursor: default; font-weight: normal; color: #fff; }
+#menu :hover div dd a	{ display: block; text-decoration: none; font-weight: normal; font-size: 11px; color: #000; text-indent: 10px; line-height: 15px; }
+#menu :hover div dd a:hover	{ text-decoration: underline; }
+
+#menu .clear			{ clear: both; }

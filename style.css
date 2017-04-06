@@ -1,0 +1,26 @@
+*									{ margin: 0; padding: 0; border: 0; }
+body 								{ font-family: "Segoe UI", sans-serif; }
+a									{ text-decoration: none; }
+ul									{ list-style: none; }
+img									{ border: 0; }
+
+#page-wrap 							{ width: 726px; z-index: 1; margin: 0px auto; }
+#bottom		 						{ width: 726px; height: 19px; z-index: 98; position: fixed; bottom: 0px; }
+#main-menu							{ width: 726px; }
+#proclist							{ width: 400px; margin-left: 170px; }
+#red								{ color: #FF0000; font-style: italic }
+#counter							{ position: fixed; bottom: 3px; left: 3px; }
+
+#topmenu a:hover					{ border-bottom: 1px dashed; } 
+
+
+a.link-in-text						{ border-bottom: 1px dashed; }
+a.backbtn							{ position: fixed; top: 100px; left: 1%; cursor: pointer; }
+
+table.procdesc						{ border: 1px dotted; border-collapse: collapse; }
+table.procdesc th					{ border: 1px dotted; padding-right: 5px; padding-left: 5px; padding-top: 1px; padding-bottom: 1px; }
+table.procdesc td					{ border: 1px dotted; padding-right: 5px; padding-left: 5px; padding-top: 1px; padding-bottom: 1px; }
+
+table.partnerlist th				{ border-bottom: 1px dashed; }
+
+.newest								{ -moz-border-radius: 100px; -webkit-border-radius: 100px; border-radius: 100px; border: 1px solid; padding: 2px; width: 70%; }
